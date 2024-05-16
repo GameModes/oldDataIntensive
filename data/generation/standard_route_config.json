@@ -1,0 +1,64 @@
+{
+  "numRoutes": 20,
+  "overlapping": true,
+  "generation": {
+    "quantity": {
+      "canChange": true,
+      "probability": 0.7,
+      "variance": 5
+    },
+    "products": {
+      "canRemove": true,
+      "canAdd": true,
+      "probability": 0.3
+    }
+  },
+  "trips": {
+    "cities": [
+      "Amsterdam",
+      "Rotterdam",
+      "Den Haag",
+      "Utrecht",
+      "Eindhoven",
+      "Tilburg",
+      "Groningen",
+      "Almere",
+      "Breda",
+      "Nijmegen",
+      "Enschede",
+      "Apeldoorn",
+      "Haarlem",
+      "Amersfoort",
+      "Zaanstad",
+      "Arnhem",
+      "Haarlemmermeer",
+      "Den Bosch",
+      "Zoetermeer",
+      "Zwolle",
+      "Maastricht",
+      "Leiden",
+      "Dordrecht",
+      "Ede",
+      "Emmen",
+      "Westland"
+    ],
+    "minimum": 5,
+    "maximum": 12
+  },
+  "merchandise": {
+    "products": [
+      "Milk",
+      "Pens",
+      "Butter",
+      "Honey",
+      "Tomatoes",
+      "Coca Cola",
+      "Shampoo",
+      "Hertog Jan"
+    ],
+    "minimumProducts": 1,
+    "maximumProducts": 4,
+    "minimumQuantity": 1,
+    "maximumQuantity": 40
+  }
+}
